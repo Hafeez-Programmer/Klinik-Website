@@ -495,7 +495,6 @@ a {
 }
 .team-image {
     height: 80%;
-    background-color: blue;
     background-size:cover;
     border-radius: 10px 10px 0px 0px;
 }
@@ -520,3 +519,152 @@ a {
     margin-bottom: 16px;
     box-sizing: border-box;
 }
+/* team end  */
+/* appointment start  */
+.appointment-primary {
+    height: 590px;
+    width: 90%;
+    padding: 48px 62px;
+    display: flex;
+}
+.appointment-item {
+    height: 100%;
+    width: 100%;
+    margin-top: 48px;
+    padding: 0px 24px;
+    box-sizing: border-box;
+}
+#appointment-title {
+    font-family: "Open Sans",sans-serif;
+    padding: 4px 24px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #8D8E92;
+    border: 1px solid #C7DCFB;
+    border-radius: 50rem;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+#appointment-content h1 {
+    font-family: Roboto,sans-serif;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+#appointment-para {
+    font-family: "Open Sans",sans-serif;
+    color: #8D8E92;
+    margin-bottom: 24px;
+}
+.appointment-content-contact {
+    height: 150px;
+    padding: 48px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #eff5ff;
+    border-radius: 8px;
+}
+.appointment-icon {
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0463FA;
+}
+.appointment-contact {
+    display: inline-block;
+    margin-left: 24px;
+    background-color: #eff5ff;
+}
+.appointment-contact p {
+    font-family: "Open Sans",sans-serif;
+    color: #8D8E92;
+    margin-bottom: 8px;
+}
+.appointment-contact h5 {
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    color: #1B2C51;
+}
+#appointment-form {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eff5ff;
+}
+.form-input {
+    height: 55px;
+    width: 45%;
+    margin-top: 16px;
+    padding: 0px 8px;
+}
+.form-input input {
+    height: 55px;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    padding: 6px 12px;
+    color: #8D8E92;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.form-input select {
+    height: 55px;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    padding: 6px 12px;
+    color: #8D8E92;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+}
+#text-box {
+    height: 132px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 16px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: white; 
+}
+#text-box textarea {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: none;
+    resize: none;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;  
+}
+#appointment-book {
+    height: 57px;
+    width: 100%;
+    margin-top: 16px;
+    padding: 0px 8px;
+}
+#appointment-book button {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    padding: 16px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0463FA;
+    color: white;
+    transition: all 0.5s;
+}
+#appointment-book button:hover {
+    background-color: rgba(0, 0, 255, 0.9)
+}
+/* appointment end  */
