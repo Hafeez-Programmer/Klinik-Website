@@ -176,7 +176,7 @@ a {
 .banner-image {
     height: 100%;
     width: 50%;
-    background-image: url(carousel-1.jpg);
+    background-image: url(Images/carousel-1.jpg);
     background-size: cover;
     display: flex;
 }
@@ -447,7 +447,7 @@ a {
     font-size: 1.25rem;
 }
 #feature-image {
-    background-image: url(feature.jpg);
+    background-image: url(Images/feature.jpg);
     background-size: cover;
 }
 /* feature end  */
